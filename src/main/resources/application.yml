@@ -1,0 +1,9 @@
+# .yml application configuration file
+---
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/cloud-server-eureka/
+      
+server:
+  port: 8020
